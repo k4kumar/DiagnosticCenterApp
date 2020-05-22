@@ -1,0 +1,128 @@
+﻿
+* {
+    margin: 0;
+    padding: 0;
+    font-family: verdana;
+}
+
+a {
+    text-decoration: none;
+}
+
+.wrapper {
+    width: 100%;
+    min-height:960px;
+    background: url(../back.jpg);
+}
+
+.commonwrapper {
+    width: 62%;
+    min-height: 400px;
+    background: rgb(237,250,252);
+    padding: 4px;
+    margin: 0 auto;
+    border-radius: 8px;
+    border: solid 1px rgb(28, 36, 91);
+    box-shadow: 1px 1px 4px 2px rgb(94, 107, 204);
+}
+
+.banner {
+    width: 100%;
+}
+
+.declare {
+    color:rgb(37,45,95);
+    margin-top: 5px;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align:center;
+}
+
+.shadow {
+    margin-top: 0;
+    font-size: 1.8em;
+    text-shadow: 1px 1px 8px rgb(94,107,204);
+}
+
+.menu {
+    display: inline-block;
+    font-size: 1.3em;
+    color: black;
+    margin: 0 auto;
+    border-radius: 6px;
+    text-align: center;
+    font-weight: bold;
+    padding: 24px;
+    background: rgb(206,213,244);
+    border: solid 1px black;
+}
+
+a {
+    margin: 0 auto;
+}
+
+.menu:hover {
+    background: rgb(83,148,200);
+    color: white;
+}
+
+input[type="text"] {
+    font-size: 0.9em;
+}
+
+.tyesavebutton, .testrequestaddbutton, .testrequestsavebutton,
+#payButton, .paySearchButton, .unpaidShowButton, .showInTestwise, #showButton {
+    font-size: 0.9em;
+    padding:2px 6px;
+}
+
+
+
+.typemessagelabel, .testnamemessagelabel, .testrequestmessagelabel, .paymentMessageLabel{
+    font-size: 1.3em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.testtypegridview {
+    margin: 0 auto;    
+}
+
+.testtypegridview tr td, .testtypegridview tr th, .testnamegridview tr td, .testnamegridview tr th,
+.testSelectGridView tr td, .testSelectGridView tr th, #unpaidBillGridView tr td, #unpaidBillGridView tr th
+.testWiseReportGridView tr td, .testWiseReportGridView tr th
+{
+    text-align: center;
+    font-size: 1.2em;
+    padding: 6px;
+}
+
+.typedropinname, .testSelectDropDownList {
+    font-size: 0.8em;
+    padding: 5px;
+}
+
+.saveintestname {
+     font-size: 0.9em;
+    padding:2px 6px;
+}
+
+#unpaidBillGridView{
+    width:100%;
+}
+
+.totalTextBoxInUnpaid{
+    
+    text-align:center;
+
+}
+
+#showButton {
+    font-size: 0.9em;
+    padding:2px 6px; 
+}
+
+.showInTestwise {
+    font-size: 0.9em;
+    padding:2px 6px;
+}
